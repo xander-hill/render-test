@@ -1,8 +1,8 @@
 POST http://localhost:3001/api/notes/
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpbGx5ZGlsbHkiLCJpZCI6IjY3NTRjM2NkMTIwNDJhYWVlY2M3NjhlOCIsImlhdCI6MTczMzYwODQzOH0.zZ4Nm-krKefeVT50ubLcOtyp6bisuy7ocrlITWY0LFs
 
 {
-    "content":"user if of the note creator is at the start sent along the request",
-    "important": true,
-    "userId": "6753d250997c0d2d8f51d56a"
+    "content": "dilly dilly",
+    "important": false
 }
